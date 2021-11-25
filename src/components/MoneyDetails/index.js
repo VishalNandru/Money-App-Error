@@ -38,8 +38,8 @@ const MoneyDetails = props => {
           className="details-img"
         />
         <div>
-          <p className="details-text">Your Expenses</p>
-          <p className="details-money" testid="expensesAmount">
+          <p className="details-text" testid="expensesAmount">Your Expenses</p>
+          <p className="details-money">
             Rs {expensesAmount}
           </p>
         </div>
